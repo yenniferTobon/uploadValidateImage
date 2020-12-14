@@ -1,0 +1,32 @@
+<div class="row">
+    <div class="col-sm-6">
+        <div #resultadoOrig class="card">
+            <div class="card-header">
+                Original Image
+            </div>
+            <div class="card-body">
+                <label for="photo_height">Height</label>
+                <input id="photo_height" type="text" class="form-control" value={{photo.photo_height}}>
+                <label for="photo_width">Width</label>
+                <input id="photo_width" type="text" class="form-control" value={{photo.photo_width}}>
+                <label for="photoPath">Original Path</label>
+                <input id="photoPath" type="text" class="form-control" value={{photo.photoPath}}>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-6">
+        <div #resultadoNew class="card">
+            <div class="card-header">
+                Modified Image
+            </div>
+            <div class="card-body">
+                <label for="new_height">New Height</label>
+                <input id="new_height" type="text" class="form-control" value={{photo.new_height}}>
+                <label for="new_width">New Width</label>
+                <input id="new_width" type="text" class="form-control" value={{photo.new_width}}>
+                <label for="photoPath">New Path</label>
+                <input id="photoPath" type="text" class="form-control" value={{photo.photoPathUpdate}}>
+            </div>
+        </div>
+    </div>
+</div>

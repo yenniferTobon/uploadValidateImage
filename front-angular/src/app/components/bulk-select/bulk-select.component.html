@@ -1,0 +1,23 @@
+<div>
+    <table class="table table-sm table-striped table-info table-bordered">
+        <thead class="thead-dark">
+            <tr>
+                <th scope="col" class="font-italic text-center">Name</th>
+                <th scope="col" class="font-italic text-center">Original Height</th>
+                <th scope="col" class="font-italic text-center">Original Width</th>
+                <th scope="col" class="font-italic text-center">New Height</th>
+                <th scope="col" class="font-italic text-center">New Width</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let imagen of photo">
+                <th scope="row">{{ imagen.title }}</th>
+                <td>{{ imagen.photo_height }} px</td>
+                <td>{{ imagen.photo_width }} px</td>
+                <td>{{ imagen.new_height }} px</td>
+                <td>{{ imagen.new_width }} px</td>
+            </tr>
+
+        </tbody>
+    </table>
+</div>
